@@ -17,3 +17,13 @@ function render() {
 }
 
 init();
+
+function popByNationality() {
+    fetch(popByNat)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(response) {
+        response.forEach()
+    });
+};
